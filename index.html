@@ -1,0 +1,80 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cursito</title>
+</head>
+<body>
+
+    <form action="">
+
+        <h2>Formulario de contacto</h2>
+
+        <!--FIELDSET Y LEGEND-->
+
+        <fieldset>
+            <legend style="color: #fff;">INFORMACION BASICA</legend>
+
+            <!--INPUTS-->
+
+            <div class="box">
+                <label for="name">Nombre Completo
+                    <input type="text" placeholder="John Doe">
+                </label>
+            </div>
+        
+            <div class="box">
+            <label for="email">Email
+                <input type="email" placeholder="Ejemplo@gmail.com">
+            </label>
+    </div>
+
+            <!--SELECT Y OPTION-->
+            
+            <div class="box">
+                <label for="">Tipo De Usuario
+                    <select name="" id="">
+                        <option value="User 1">Persona</option>
+                        <option value="User 2">Empresa</option>
+                        <option value="User 3">Otro</option>
+                    </select>
+                </label>
+            </div>
+            
+            <div class="box">
+                <label for="">Asunto
+                    <select name="" id="">
+                        <option value="User 3">Opcion 1</option>
+                        <option value="User 1">Opcion 2</option>
+                        <option value="User 2">Opcion 3</option>
+                    </select>
+                </label>
+            </div>
+
+        </fieldset>
+            
+        <!--TEXTAREA-->
+
+        <div class="box">
+            <label for="mensaje">Mensaje
+                <textarea cols="30" rows="10" placeholder="Deja Tu Mensaje"></textarea>
+            </label>
+        </div>
+
+        <!--CHECKBOX-->
+        <div>
+            <label for=""> Acepto Terminos y Condiciones
+                <input type="checkbox" class="checkbox">
+            </label>
+        </div>
+
+        <div>
+            <input class="enviar" type="submit">  
+        </div>
+
+    </form>
+    
+</body>
+</html>

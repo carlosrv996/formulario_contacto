@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background: #222;
+}
+
+form {
+    background: transparent;
+    padding: 20px 0;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 15px rgb(82, 98, 119);
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.box {
+    padding: 6px 12px;  
+}
+
+input, textarea, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(82, 98, 119);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+option {
+    background-color: #222;
+}
+
+textarea {
+    min-width: 100%;
+    resize: none;
+    min-height: 101px;
+    min-height: 100px;
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 0.9em;
+    line-height: 2;
+    padding: 4px;
+    color: #fff;
+}
+
+fieldset {
+    border-radius: 6px;
+    border: 1px solid #fff;
+    padding: 8px 6px 20px 6px;
+    margin: 20px;
+}
+
+legend {
+    padding: 0 6px;
+}
+
+.checkbox {
+    width: auto;
+    height: 10px;
+}
+
+.enviar {
+    width: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
